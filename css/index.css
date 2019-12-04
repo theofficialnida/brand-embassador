@@ -1,0 +1,54 @@
+body {
+    background-color: #ffd2da;
+    color: #666666;
+}
+
+h1,
+h4,
+h5 {
+    color: #403d2d;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.list-group-item,
+.modal-content {
+    background-color: #ffd2da !important;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselExampleControls {
+        margin-bottom: 50px;
+        margin-top: -25px;
+    }
+
+    #experiences{
+        margin-top: 0px !important;
+        margin-bottom: -75px;
+    }
+}
+
+@media only screen and (max-height: 300px) {
+
+    #carouselExampleControls{
+        margin-top: 0px !important;
+    }
+
+    
+}
+
+#experiences{
+    margin-top: 70px;
+}
+
+#carouselExampleControls{
+    margin-top: 140px;
+}
